@@ -1,0 +1,61 @@
+body {
+   background-color: #0f0f0f;
+}
+
+h1,
+p {
+   color: white;
+}
+.barra_navegacion {
+   background-color: #2b2a2a;
+   padding: 7px;
+}
+
+.contenedor_imagen {
+   margin-top: 15px;
+}
+.titulo {
+   text-align: left;
+}
+
+.botones_foto {
+   margin: 20px auto 0 auto;
+   display: flex;
+   max-width: 300px;
+   justify-content: space-between;
+}
+
+.botones_sinFoto {
+   margin: 20px auto 0 auto;
+   display: flex;
+   max-width: 300px;
+   justify-content: center;
+}
+
+.boton {
+   width: auto;
+   background-color: #33a180;
+   cursor: pointer;
+   color: white;
+   padding: 10px 15px;
+   border: none;
+}
+
+input[type='file'] {
+   display: none;
+}
+
+h1 {
+   text-align: center;
+}
+.fotoEditar {
+   margin: 0 auto;
+   width: 400px;
+   height: 400px;
+   display: block;
+}
+
+.contenedor {
+   max-width: 700px;
+   margin: 0 auto;
+}
